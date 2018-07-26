@@ -1,0 +1,58 @@
+.left{
+    float: left;
+}
+
+#main-game-screen{
+    width: 600px;
+    height: 600px;
+    border:1px solid #333;
+    position:relative;
+}
+
+#console-debug-container{
+    width: 1200px;
+    margin-left: 20px;
+    border: 1px solid #333333;
+}
+
+#console-debug{
+    width:100%;
+    height: 800px;
+    overflow-y: scroll;
+    font-size:20px;
+}
+
+#console-in{
+    width: 99%;
+}
+
+#console-debug strong.timestamp{
+    color: deepskyblue;
+}
+
+#console-debug strong.cmd-id{
+    color: black;
+}
+
+#console-debug strong.type-in{
+    color: #ffe200;
+}
+
+#console-debug strong.type-out{
+    color: #ff7300;
+}
+
+#console-debug strong.error{
+    color: red;
+}
+
+.player{
+    width:50px;
+    height:50px;
+    border-right:1px solid blue;
+    position:absolute;
+}
+
+.bullet{
+    position:absolute;
+}
